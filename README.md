@@ -22,6 +22,6 @@ In parallel with this, when launched, the data is exported from the database to 
 ```bash
     cd src
     py main.py weather.xlsx
-    ```
+```
 
 
