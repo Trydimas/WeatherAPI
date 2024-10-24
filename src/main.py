@@ -10,7 +10,7 @@ import pandas as pd
 def save_to_excel(df, output_file):
     try:
         df.to_excel(output_file, index=False, engine='openpyxl')  # export data to excel
-        print(f'Данные успешно экспортированы в {output_file}')
+        print(f'Data successfully exported to {output_file}')
     except Exception as ex:
         print(ex)
 
