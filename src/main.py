@@ -33,7 +33,7 @@ async def action_weather():
         if not data:
             break
         await asyncio.create_task(add_weather(data))  # writing weather data to the database
-        await asyncio.sleep(60 * 60) 
+        await asyncio.sleep(60 * 60)
 
 
 async def main(out_file: str):
